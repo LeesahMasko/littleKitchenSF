@@ -154,7 +154,7 @@ h1{
 .text-inside-boxes{
     color:white;
     font-size: 14px;
-    font-weight: 300;
+    font-weight: 200;
     line-height: 22px;
     padding: 10px;
 }
@@ -174,11 +174,57 @@ p{
 
 }
 
-.most-recent{
+.most-recent1{
     flex-basis: 31%;
-    background: rgb(152, 191, 240);
+    background-image: url(images/CrustyBread1.png);
+    /* background: rgb(152, 191, 240); */
     border-radius: 10px;
     margin-bottom: 5%;
     padding:20px 12px;
     box-sizing: border-box;
+    transition: 0.5s;
+}
+
+.most-recent2{
+    flex-basis: 31%;
+    background-image:  url(images/ChocolateCookie2.png); 
+    opacity: 0.75;
+    /* linear-gradient(hsl(225, 13%, 90%), rgba(255, 255, 255, 0.7)), */
+    /* background: rgb(152, 191, 240); */
+    border-radius: 10px;
+    margin-bottom: 5%;
+    padding:20px 12px;
+    box-sizing: border-box;
+    transition: 0.5s;
+}
+
+.most-recent3{
+    flex-basis: 31%;
+    background-image: url(images/CauliflowerPizza1.png);
+    /* background: rgb(152, 191, 240); */
+    border-radius: 10px;
+    margin-bottom: 5%;
+    padding:20px 12px;
+    box-sizing: border-box;
+    transition: 0.5s;
+}
+
+h3{
+    text-align: center;
+    font-weight: 700;
+    margin: 10px 0;
+    color: white;
+}
+
+.most-recent1:hover{
+    box-shadow: 0 0 20px 0px rgba(0,0,0,0.8);
+
+}
+.most-recent2:hover{
+    box-shadow: 0 0 20px 0px rgba(0,0,0,0.8);
+
+}
+.most-recent3:hover{
+    box-shadow: 0 0 20px 0px rgba(0,0,0,0.8);
+
 }
