@@ -135,7 +135,7 @@ nav .fas{
     .nav-links{
         position:absolute;
         color: white;
-        background: green;
+        background: rgba(87,164,83,255);
         height: 100vh;
         width: 200px;
         top:0;
