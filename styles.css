@@ -101,8 +101,11 @@ nav img{
     transition: 1s;
 }
 
-nav .fa{
+/* nav .fa{
     display: none;
+} */
+nav .fas{
+    visibility: hidden;
 }
 @media(max-width:700px){
     nav{
@@ -142,6 +145,7 @@ nav .fa{
         transition: 0.5s;
     }
     nav .fas{
+        visibility: visible;
         display: block;
         color:rgb(152, 191, 240);
         margin: 10px;
@@ -156,7 +160,9 @@ nav .fa{
     }
 
     .row{
+        width: 70%;
         display:flex;
+        align-items: center;
         flex-direction: column;
         justify-content: space-between;
     
@@ -170,18 +176,25 @@ nav .fa{
 
 }
 
+
+
+
 /* <------Most Recent------> */
 
 .mostRecent{
+    display: flex;
+    flex-direction: column;
     width:80%;
     margin: auto;
     text-align: center;
-    padding-top:100px;
+    padding-top:50px;
+    align-items: center;
 }
 
-h1{
+.mostRecent h1{
     font-size: 36;
     font-weight: 600;
+    color:rgb(152, 191, 240);
 }
 
 .text-inside-boxes{
@@ -210,36 +223,35 @@ p{
 .most-recent1{
     flex-basis: 31%;
     background-image: url(images/CrustyBread1.png);
-    /* background: rgb(152, 191, 240); */
     border-radius: 10px;
     margin-bottom: 5%;
     padding:20px 12px;
     box-sizing: border-box;
     transition: 0.5s;
+    background-size: 300px;
 }
 
 .most-recent2{
     flex-basis: 31%;
     background-image:  url(images/ChocolateCookie2.png); 
     opacity: 0.75;
-    /* linear-gradient(hsl(225, 13%, 90%), rgba(255, 255, 255, 0.7)), */
-    /* background: rgb(152, 191, 240); */
     border-radius: 10px;
     margin-bottom: 5%;
     padding:20px 12px;
     box-sizing: border-box;
     transition: 0.5s;
+    background-size: 300px;
 }
 
 .most-recent3{
     flex-basis: 31%;
     background-image: url(images/CauliflowerPizza1.png);
-    /* background: rgb(152, 191, 240); */
     border-radius: 10px;
     margin-bottom: 5%;
     padding:20px 12px;
     box-sizing: border-box;
     transition: 0.5s;
+    background-size: 300px;
 }
 
 h3{
@@ -258,6 +270,72 @@ h3{
 
 }
 .most-recent3:hover{
+    box-shadow: 0 0 20px 0px rgba(0,0,0,0.8);
+
+}
+
+.sf-food-blog{
+    display: flex;
+    flex-direction: column;
+    width:80%;
+    margin: auto;
+    text-align: center;
+    padding-top:50px;
+    align-items: center;
+}
+
+.sf-food-blog h1{
+    font-size: 36;
+    font-weight: 600;
+    color:rgb(152, 191, 240);
+}
+
+.food-blog1{
+    flex-basis: 31%;
+    background-image: url(images/AlmondCroissant.jpg);
+    border-radius: 10px;
+    margin-bottom: 5%;
+    padding:20px 12px;
+    box-sizing: border-box;
+    border: 5px solid black;
+    transition: 0.5s;
+    background-size: 300px;
+  /* width: 300px;
+  height: 300px; */
+}
+
+.food-blog1:hover{
+    box-shadow: 0 0 20px 0px rgba(0,0,0,0.8);
+
+}
+.food-blog2{
+    flex-basis: 31%;
+    background-image: url(images/Cioppino.jpg);
+    border-radius: 10px;
+    margin-bottom: 5%;
+    padding:20px 12px;
+    box-sizing: border-box;
+    border: 5px solid black;
+    transition: 0.5s;
+    background-size: 300px;
+}
+.food-blog2:hover{
+    box-shadow: 0 0 20px 0px rgba(0,0,0,0.8);
+
+}
+
+.food-blog3{
+    flex-basis: 31%;
+    background-image: url(images/Fish&Chips.jpg);
+    border-radius: 10px;
+    margin-bottom: 5%;
+    padding:20px 12px;
+    box-sizing: border-box;
+    border: 5px solid black;
+    transition: 0.5s;
+    background-size: 300px;
+}
+.food-blog3:hover{
     box-shadow: 0 0 20px 0px rgba(0,0,0,0.8);
 
 }
