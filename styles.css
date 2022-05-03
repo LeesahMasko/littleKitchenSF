@@ -8,7 +8,6 @@
     min-height: 100vh;
     width: 100%;
     background-image: url(images/jason-leung-cYqEszzXU2g-unsplash.jpg);
-    /* background-image: linear-gradient(hsl(225, 13%, 94%), rgba(213, 216, 226, 0.7)), url(images/jason-leung-cYqEszzXU2g-unsplash.jpg); */
     background-position: center;
     background-size:cover;
     position: relative;
@@ -89,8 +88,6 @@ nav img{
     padding: 12px 34px;
     font-size: 13px;
     background-color: rgba(254, 254, 254, 0.8);
-    /* background-color: white; */
-    /* background: transparent; */
     position: relative;
     cursor: pointer;
     border-radius: 10px;
@@ -104,9 +101,6 @@ nav img{
     transition: 1s;
 }
 
-/* nav .fa{
-    display: none;
-} */
 nav .fas{
     visibility: hidden;
 }
@@ -184,16 +178,6 @@ nav .fas{
 
 /* <------Most Recent------> */
 
-/* .mostRecent{
-    display: flex;
-    flex-direction: column;
-    width:80%;
-    margin: auto;
-    text-align: center;
-    padding-top:50px;
-    align-items: center;
-} */
-
 .mostRecent{
     width:80%;
     margin: auto;
@@ -205,14 +189,6 @@ nav .fas{
     font-size: 36;
     font-weight: 600;
     color:rgb(152, 191, 240);
-}
-
-.text-inside-boxes{
-    color:white;
-    font-size: 14px;
-    font-weight: 200;
-    line-height: 22px;
-    padding: 10px;
 }
 
 p{
@@ -229,24 +205,13 @@ p{
     justify-content: space-between;
 
 }
-
-
-/* .most-recent1{
-    flex-basis: 31%;
-    background-image: url(images/CrustyBread1.png);
-    border-radius: 10px;
-    margin-bottom: 5%;
-    padding:20px 12px;
-    box-sizing: border-box;
-    transition: 0.5s;
-    background-size: 300px;
-} */
 .most-recent1{
     flex-basis: 32%;
     border-radius: 10px;
     margin-bottom: 30px;
     position: relative;
     overflow: hidden;
+    box-shadow: 0 0 20px 0px rgba(0,0,0,0.8);
 }
 
 .most-recent1 img{
@@ -265,31 +230,15 @@ p{
 }
 
 .layer:hover{
-    background: rgba(87,164,83,255);
+    background: white;
     opacity: 70%;
+    box-shadow: 0 0 20px 0px rgba(0,0,0,0.8);
 }
-
-/* .layer h3{
-    width:100%;
-    font-weight: 500;
-    color: #fff;
-    font-size: 26px;
-    bottom: 0;
-    left: 50%;
-    transform: translate(-50%);
-    position: absolute;
-    opacity: 0;
-    transition: 0.5s;
-}
-.layer:hover h3{
-    bottom: 49%;
-    opacity: 1;
-} */
 
 .layer p{
     width:100%;
     font-weight: 500;
-    color: white;
+    color: darkblue;
     font-size: 15px;
     bottom: 0;
     left: 50%;
@@ -304,48 +253,42 @@ p{
 }
 
 .most-recent2{
-    flex-basis: 31%;
-    background-image:  url(images/ChocolateCookie2.png); 
-    opacity: 0.75;
+    flex-basis: 32%;
     border-radius: 10px;
-    margin-bottom: 5%;
-    padding:20px 12px;
-    box-sizing: border-box;
-    transition: 0.5s;
-    background-size: 300px;
+    margin-bottom: 30px;
+    position: relative;
+    overflow: hidden;
+    box-shadow: 0 0 20px 0px rgba(0,0,0,0.8);
+}
+
+.most-recent2 img{
+    width: 100%;
+    display:block;
 }
 
 .most-recent3{
-    flex-basis: 31%;
-    background-image: url(images/CauliflowerPizza1.png);
+    flex-basis: 32%;
     border-radius: 10px;
-    margin-bottom: 5%;
-    padding:20px 12px;
-    box-sizing: border-box;
-    transition: 0.5s;
-    background-size: 300px;
+    margin-bottom: 30px;
+    position: relative;
+    overflow: hidden;
+    box-shadow: 0 0 20px 0px rgba(0,0,0,0.8);
+}
+
+.most-recent3 img{
+    width: 100%;
+    display:block;
 }
 
 h3{
     text-align: center;
-    font-weight: 700;
+    font-weight: 500;
     margin: 10px 0;
-    color: white;
+    color: darkblue;
+    background-color: rgb(255,255,255,0.7);
+    border-radius: 10px;
 }
-
-.most-recent1:hover{
-    box-shadow: 0 0 20px 0px rgba(0,0,0,0.8);
-
-}
-.most-recent2:hover{
-    box-shadow: 0 0 20px 0px rgba(0,0,0,0.8);
-
-}
-.most-recent3:hover{
-    box-shadow: 0 0 20px 0px rgba(0,0,0,0.8);
-
-}
-
+/* <---------SF Food Blog-----------> */
 .sf-food-blog{
     display: flex;
     flex-direction: column;
@@ -363,33 +306,33 @@ h3{
 }
 
 .food-blog1{
-    flex-basis: 31%;
-    background-image: url(images/AlmondCroissant.jpg);
+    flex-basis: 32%;
     border-radius: 10px;
-    margin-bottom: 5%;
-    padding:20px 12px;
-    box-sizing: border-box;
-    border: 5px solid rgb(188, 180, 180);
-    transition: 0.5s;
-    background-size: 300px;
-  /* width: 300px;
-  height: 300px; */
+    margin-bottom: 30px;
+    position: relative;
+    overflow: hidden;
+    box-shadow: 0 0 20px 0px rgba(0,0,0,0.8);
 }
-
+.food-blog1 img{
+    width:100%;
+    display: block;
+}
 .food-blog1:hover{
     box-shadow: 0 0 20px 0px rgba(0,0,0,0.8);
 
 }
+
 .food-blog2{
-    flex-basis: 31%;
-    background-image: url(images/Cioppino.jpg);
+    flex-basis: 32%;
     border-radius: 10px;
-    margin-bottom: 5%;
-    padding:20px 12px;
-    box-sizing: border-box;
-    border: 5px solid rgb(188, 180, 180);
-    transition: 0.5s;
-    background-size: 300px;
+    margin-bottom: 30px;
+    position: relative;
+    overflow: hidden;
+    box-shadow: 0 0 20px 0px rgba(0,0,0,0.8);
+}
+.food-blog2 img{
+    width:100%;
+    display: block;
 }
 .food-blog2:hover{
     box-shadow: 0 0 20px 0px rgba(0,0,0,0.8);
@@ -397,15 +340,16 @@ h3{
 }
 
 .food-blog3{
-    flex-basis: 31%;
-    background-image: url(images/Fish&Chips.jpg);
+    flex-basis: 32%;
     border-radius: 10px;
-    margin-bottom: 5%;
-    padding:20px 12px;
-    box-sizing: border-box;
-    border: 5px solid rgb(188, 180, 180);
-    transition: 0.5s;
-    background-size: 300px;
+    margin-bottom: 30px;
+    position: relative;
+    overflow: hidden;
+    box-shadow: 0 0 20px 0px rgba(0,0,0,0.8);
+}
+.food-blog3 img{
+    width:100%;
+    display: block;
 }
 .food-blog3:hover{
     box-shadow: 0 0 20px 0px rgba(0,0,0,0.8);
