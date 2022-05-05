@@ -393,3 +393,69 @@ footer nav{
     background-color: rgb(255, 255, 255, 0.8);
     border-radius: 20px;
 }
+
+.header-recipes{
+    min-height: 100vh;
+    width: 100%;
+    background-image: url(images/wendell-shinn-ct3-bruKcSg-unsplash.jpg);
+    background-position: center;
+    background-size:cover;
+    position: relative;
+}
+
+.header-sf-grub-blog{
+    min-height: 100vh;
+    width: 100%;
+    background-image: url(images/sammy-schuckert-iWY1BH4khfQ-unsplash.jpg);
+    background-position: center;
+    background-size:cover;
+    position: relative;
+}
+
+.header-sf-picture-gallery{
+    min-height: 100vh;
+    width: 100%;
+    background-image: url(images/robert-mclay-tZWAe7OSwrk-unsplash.jpg);
+    background-position: center;
+    background-size:cover;
+    position: relative;
+}
+
+/* <----------------Recipe Posts-------------> */
+
+.recipe-Post-header{
+    height: 50vh;
+    width: 100%;
+    /* background-color: linear-gradient(rgb(255, 255, 255, 0.8)),(rgb(255, 255, 255, 0.8)); */
+    background-image: url(images/whiteBrickWall.jpg);
+    background-position: center;
+    background-size: cover;
+    text-align: center;
+    color: darkblue;
+}
+
+.recipe-Post-header h1{
+    font-size: 50px;
+    margin-top: 100px;
+}
+
+.recipe-post-body{
+    width:50%;
+    margin:auto;
+    /* padding-top: 80px;
+    padding-bottom: 50px */
+}
+
+.recipe-col{
+    flex: basis 48%;
+    /* padding: 30px 2px; */
+}
+
+.recipe-col {
+    flex: basis 48%;
+    /* padding: 30px 2px; */
+}
+
+.recipe-col iframe{
+    width: 100%
+}
