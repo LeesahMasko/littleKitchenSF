@@ -22,6 +22,7 @@ nav{
     padding: 2% 6%;
     justify-content: space-between;
     align-items: center;
+    font-weight: 800;
     /* background-color:aliceblue; */
 }
 nav img{
@@ -35,6 +36,7 @@ nav img{
     background-color: aliceblue;
     border-top: 1px solid rgb(152, 191, 240);
     border-bottom: 1px solid rgb(152, 191, 240);
+    font-weight: 500;
     
 
 }
@@ -849,6 +851,7 @@ Hero
     grid-template-columns: auto 1fr;
     gap: 1.5rem;
     align-items: center;
+    
   }
   .single-instruction header p {
     text-transform: uppercase;
@@ -866,8 +869,10 @@ Hero
   }
   
   .second-column {
-    display: grid;
-    row-gap: 2rem;
+      display: flex;
+      flex-direction: column;
+      background-color: #f2f5fa;
+      padding: 5px;
   }
   
   .single-ingredient {
