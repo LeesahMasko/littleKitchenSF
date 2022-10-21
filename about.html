@@ -38,8 +38,8 @@
                             your patience and understanding!</p>
                     </div>
                 </div>
-                <i class="fas fa-bars" onclick="showMenu()"></i>
-
+            </div>
+            <i class="fas fa-bars" onclick="showMenu()"></i>
         </nav>
 
         <div class="text-box">
@@ -53,7 +53,8 @@
                     other apartments in our building and
                     each residence is occupied by people that we are lucky to call friends.
                 </p>
-                <a class="hero-btn" style="margin-bottom: 10px" href="mailto:lisa@littlekitchensf.com?subject=Little Kitchen SF Inquiry">Contact me</a>
+                <a class="hero-btn" style="margin-bottom: 10px"
+                    href="mailto:lisa@littlekitchensf.com?subject=Little Kitchen SF Inquiry">Contact me</a>
             </div>
 
         </div>
@@ -62,11 +63,11 @@
             var navLinks = document.getElementById("navLinks");
 
             function showMenu() {
-                navLinks.style.right = "0";
+                navLinks.style.display = "block";
             }
 
             function hideMenu() {
-                navLinks.style.right = "-200px";
+                navLinks.style.display = "none";
             }
         </script>
         <footer>

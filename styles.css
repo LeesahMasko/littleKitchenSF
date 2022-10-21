@@ -4,13 +4,15 @@
     font-family: 'Poppins', sans-serif;
 }
 
+
 .header{
     min-height: 100vh;
     width: 100%;
     background-image: url(Images/jason-leung-cYqEszzXU2g-unsplash.jpg);
     background-position: center;
     background-size:cover;
-    position: relative;
+    position: relative; 
+
 }
 
 .logo{
@@ -19,11 +21,13 @@
 
 nav{
     display: flex;
+    width: 90%;
     padding: 2% 6%;
     justify-content: space-between;
     align-items: center;
     font-weight: 800;
-    /* background-color:aliceblue; */
+    background-color:white;
+    border-bottom: solid 5px rgb(152, 191, 240)
 }
 nav img{
     width: 100px;
@@ -33,9 +37,6 @@ nav img{
     display: flex;
     align-items: center;
     justify-content: center;
-    background-color: aliceblue;
-    border-top: 1px solid rgb(152, 191, 240);
-    border-bottom: 1px solid rgb(152, 191, 240);
     font-weight: 500;
     
 
@@ -46,16 +47,16 @@ nav img{
 
 }
 nav p{
-    color:white;
+    color:rgb(152, 191, 240);
     font-weight: 500;
-    text-decoration: underline yellow;
-    background-color: rgba(87,164,83,255);
+    background-color: aliceblue;
     width: 100%;
 }
 
 .nav-links{
     flex: 1;
     text-align: right;
+    padding-right: 10px;
 }
 
 .nav-links ul li{
@@ -63,12 +64,14 @@ nav p{
     display: inline-block;
     padding: 8px 12px;
     position: relative;
+    
 }
 
 .nav-links ul li a{
     color: rgb(152, 191, 240);
     text-decoration: none;
     font-size: 13px;
+    padding-right: 10px;
 }
 
 .nav-links ul li::after{
@@ -142,9 +145,9 @@ nav .fas{
     .text-box{
         width:90%;
         color: rgb(152, 191, 240);
-        position:absolute;
-        top: 25%;
-        left:50%;
+        /* position:absolute; */
+        /* top: 25%;
+        left:50%; */
         transform: translate(-50%, -50%);
         text-align: center;
     }
@@ -157,13 +160,14 @@ nav .fas{
         color: white;
     }
     .nav-links{
-        position:absolute;
+        display: none;
+        /* position:absolute; */
         color: white;
         background: rgba(87,164,83,255);
-        height: 100vh;
-        width: 200px;
-        top:0;
-        right:-200px;
+        /* height: 100vh; */
+        /* width: 200px;
+        top:0; */
+        /* right:-200px; */
         text-align: left;
         z-index: 2;
         transition: 0.5s;
@@ -206,8 +210,6 @@ nav .fas{
     }
 
 }
-
-
 
 
 /* <------Most Recent------> */
@@ -412,7 +414,7 @@ footer nav{
     position: relative;
 }
 .header-about p{
-    color: darkblue;
+    color: rgb(152, 191, 240);
     font-weight: 500;
     
 }
