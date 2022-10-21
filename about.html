@@ -1,15 +1,21 @@
 <!DOCTYPE html>
 <html>
+
 <head>
     <meta name="viewport" content="with=device-width, initial-scale=1.0">
     <title>The Little Kitchen In San Francisco</title>
     <link rel="stylesheet" href="styles.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ==" crossorigin="anonymous" referrerpolicy="no-referrer" /></head>
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+        integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
 <body>
 
     <!-- Font awesome version 5.15.4 
@@ -23,52 +29,60 @@
                     <li><a href="index.html">HOME</a></li>
                     <li><a href="about.html">ABOUT</a></li>
                     <li><a href="recipes.html">RECIPES</a></li>
-                    <li><a href="sf_grub_blog.html">SF GRUB BLOG</a></li> 
-                    <li><a href="sf_picture_gallery.html">PICTURE GALLERY</a></li>  
+                    <li><a href="sf_grub_blog.html">SF GRUB BLOG</a></li>
+                    <li><a href="sf_picture_gallery.html">PICTURE GALLERY</a></li>
                 </ul>
-                <p>This website is currently underconstruction, and I am learning as I go.  Thanks for your patience and understanding</p>
-            </div>
-            <i class="fas fa-bars" onclick="showMenu()"></i>
+                <div class="banner">
+                    <div class="banner-info">
+                        <p>This website is currently under construction, and I am learning as I go. :) <br>Thanks for
+                            your patience and understanding!</p>
+                    </div>
+                </div>
+                <i class="fas fa-bars" onclick="showMenu()"></i>
 
         </nav>
 
-    <div class="text-box" >
-        <h1>Welcome!</h1>
-        <div class="intro">
-            <p>My name is Lisa.  I live in San Francisco in a small one bedroom apartment with my significant other and our cat.
-                Our building was constucted in 1912 and it is considered to be Edwardian.  It has creaky floors and old windows that don't like to open,
-                It's drafty, small, and laid out strangly by todays modern standard, but WE LOVE IT! There are 5 other apartments in our building and 
-                each residence is occupied by people that we are lucky to call friends. 
-            </p>
+        <div class="text-box">
+            <h1>Welcome!</h1>
+            <div class="intro">
+                <p>My name is Lisa. I live in San Francisco in a small one bedroom apartment with my significant other
+                    and our cat.
+                    Our building was constucted in 1912 and it is considered to be Edwardian. It has creaky floors and
+                    old windows that don't like to open,
+                    It's drafty, small, and laid out strangly by todays modern standard, but WE LOVE IT! There are 5
+                    other apartments in our building and
+                    each residence is occupied by people that we are lucky to call friends.
+                </p>
+            </div>
+
         </div>
-        
-       
-<!------Open and close menu on smaller screen----->
-<script>
-    var navLinks = document.getElementById("navLinks");
+        <!------Open and close menu on smaller screen----->
+        <script>
+            var navLinks = document.getElementById("navLinks");
 
-    function showMenu(){
-        navLinks.style.right = "0";
-    }
+            function showMenu() {
+                navLinks.style.right = "0";
+            }
 
-    function hideMenu(){
-        navLinks.style.right = "-200px";
-    }
-</script>
-<footer>
-    <div class="icons">
-        <i class="fas fa-facebook"></i>
-        <i class="fas fa-instagram"></i>
-        <i class="fas fa-linkedin"></i>
-    </div>
-    <!-- <nav>
+            function hideMenu() {
+                navLinks.style.right = "-200px";
+            }
+        </script>
+        <footer>
+            <div class="icons">
+                <i class="fas fa-facebook"></i>
+                <i class="fas fa-instagram"></i>
+                <i class="fas fa-linkedin"></i>
+            </div>
+            <!-- <nav>
     <a href="">About</a>  |
     <a href="">Youtube Channel </a>  |
     <a href="">Facebook</a>  |
     <a href="">Instagram</a>  |
     <a href="">TikTok</a>
     </nav> -->
-    <p>This website is powered, designed, built and maintained by me :) </p>
-</footer>
+            <p>This website is powered, designed, built and maintained by me :) </p>
+        </footer>
 </body>
+
 </html>
