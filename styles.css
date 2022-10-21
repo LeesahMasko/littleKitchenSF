@@ -7,7 +7,7 @@
 .header{
     min-height: 100vh;
     width: 100%;
-    background-image: url(images/jason-leung-cYqEszzXU2g-unsplash.jpg);
+    background-image: url(Images/jason-leung-cYqEszzXU2g-unsplash.jpg);
     background-position: center;
     background-size:cover;
     position: relative;
@@ -406,7 +406,7 @@ footer nav{
 .header-about{
     min-height: 100vh;
     width: 100%;
-    background-image: url(images/IMG_1068.jpg);
+    background-image: url(Images/IMG_1068.jpg);
     background-position: center;
     background-size:cover;
     position: relative;
@@ -425,7 +425,7 @@ footer nav{
 .header-recipes{
     min-height: 100vh;
     width: 100%;
-    background-image: url(images/wendell-shinn-ct3-bruKcSg-unsplash.jpg);
+    background-image: url(Images/wendell-shinn-ct3-bruKcSg-unsplash.jpg);
     background-position: center;
     background-size:cover;
     position: relative;
@@ -434,7 +434,7 @@ footer nav{
 .header-sf-grub-blog{
     min-height: 100vh;
     width: 100%;
-    background-image: url(images/sammy-schuckert-iWY1BH4khfQ-unsplash.jpg);
+    background-image: url(Images/sammy-schuckert-iWY1BH4khfQ-unsplash.jpg);
     background-position: center;
     background-size:cover;
     position: relative;
@@ -443,7 +443,7 @@ footer nav{
 .header-sf-picture-gallery{
     min-height: 100vh;
     width: 100%;
-    background-image: url(images/robert-mclay-tZWAe7OSwrk-unsplash.jpg);
+    background-image: url(Images/robert-mclay-tZWAe7OSwrk-unsplash.jpg);
     background-position: center;
     background-size:cover;
     position: relative;
@@ -455,7 +455,7 @@ footer nav{
     height: 50vh;
     width: 100%;
     /* background-color: linear-gradient(rgb(255, 255, 255, 0.8)),(rgb(255, 255, 255, 0.8)); */
-    /* background-image: url(images/whiteBrickWall.jpg); */
+    /* background-image: url(Images/whiteBrickWall.jpg); */
     /* opacity: 50%; */
     background-position: center;
     background-size: cover;
