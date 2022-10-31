@@ -689,6 +689,9 @@ Hero
   About Page
   ===============
   */
+  .abouttext-box{
+    margin-top: 50px;
+  }
   
   .about-page h2 {
     text-transform: none;
