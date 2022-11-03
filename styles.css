@@ -408,7 +408,7 @@ footer nav{
 .header-about{
     min-height: 100vh;
     width: 100%;
-    background-image: url(Images/IMG_1068.jpg);
+    background-image: url(Images/whiteBrickWall.jp);
     background-position: center;
     background-size:cover;
     position: relative;
@@ -690,13 +690,23 @@ Hero
   ===============
   */
   .abouttext-box{
-    margin-top: 50px;
+    margin: 50px;
     background-color: white;
+    opacity: 80%;
+  }
+  .intro p{
+    color: darkblue;
+
+  }
+  .aboutPics{
+    width: 90%;
+
   }
   
   .about-page h2 {
     text-transform: none;
     font-weight: bold;
+    color: darkblue;
   }
   .about-page {
     display: grid;
